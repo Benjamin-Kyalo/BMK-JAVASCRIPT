@@ -1,3 +1,13 @@
+let countEl = document.getElementById("count-el");
+let count = 0;
+function increment() {
+  count = count + 1;
+  countEl.innerText = count;
+}
+ function save() {
+   console.log(count);
+}
+
 // document.getElementById("count-el").innerText = 5;
 
 // let myAge = 23
@@ -46,12 +56,42 @@
 // }
 // totallaptimes()
 
-let lapscompleted = 0
-function incrementby1() {
-    lapscompleted = lapscompleted + 1
-}
-incrementby1()
-incrementby1()
-incrementby1()
-console.log(lapscompleted)
+// let lapscompleted = 0
+// function incrementby1() {
+//     lapscompleted = lapscompleted + 1
+// }
+// incrementby1()
+// incrementby1()
+// incrementby1()
+// console.log(lapscompleted)
 
+// let count = 0
+// function increment() {
+//     count = count + 1
+//     console.log(count)
+// }
+
+
+
+// let notification = "You have tree new notification";
+// console.log(notification);
+
+// let messageToUser = "we have logged";
+// console.log(messageToUser);
+
+// let name = "Benjamin";
+// console.log(name);
+
+// let greetings = "Hi, my name is ";
+// console.log(greetings);
+
+// let mygreetings = greetings + " "+ name;
+// console.log(mygreetings);
+
+// let welcomeEl = document.getElementById("welcome-el")
+
+// let name = "Benjamin Kyalo"
+// let greeting = "welcome back "
+// let emoji = "👋"
+// welcomeEl.innerText = greeting + name + emoji
+// welcomeEl.innerText = welcomeEl.innerText + "👋"
