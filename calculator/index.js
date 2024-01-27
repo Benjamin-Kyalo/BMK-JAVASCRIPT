@@ -17,6 +17,6 @@ function divide(){
     sumEl.textContent = "Sum: "+ result
 }
 function multiply(){
-    let result = num1 * num2
+    let result = num1 *   num2
     sumEl.textContent = "Sum: "+ result
 }
